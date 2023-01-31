@@ -62,7 +62,7 @@ class _FirstPageState extends State<FirstPage> {
       text: TextSpan(
           text: 'moyawim',
           style: GoogleFonts.zillaSlab(
-            textStyle: Theme.of(context).textTheme.display1,
+            textStyle: Theme.of(context).textTheme.titleLarge,
             fontSize: 30,
             fontWeight: FontWeight.w600,
             color: Colors.white,

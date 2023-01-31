@@ -33,7 +33,7 @@ class _ApplicantsState extends State<Applicants> {
           title: Text('Success'),
           content: Text(dia),
           actions: <Widget>[
-            FlatButton(
+            TextButton(
                 child: Text('Ok'),
                 onPressed: () {
                   Navigator.pop(context);
@@ -145,7 +145,7 @@ class _ApplicantsState extends State<Applicants> {
                             Container(
                               height: 50,
                               width : MediaQuery.of(context).size.width,
-                              child: FlatButton.icon(
+                              child: TextButton.icon(
                                 icon: Icon(Icons.check,color: Colors.green,size: 25),
                                 label:Text(
                                   "Hire",

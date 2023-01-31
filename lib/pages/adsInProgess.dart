@@ -150,7 +150,7 @@ class _inProgress extends State<inProgress> {
                                     ),
                                   ),
                                   actions: <Widget>[
-                                    FlatButton(
+                                    TextButton(
                                         child: Text(
                                           'Yes',
                                           style: TextStyle(
@@ -170,7 +170,7 @@ class _inProgress extends State<inProgress> {
                                           Navigator.pop(context);
                                         }
                                     ),
-                                    FlatButton(
+                                    TextButton(
                                         child: Text(
                                           'Cancel',
                                           style: TextStyle(

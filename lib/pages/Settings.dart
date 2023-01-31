@@ -121,7 +121,7 @@ class _SettingsState extends State<Settings1> {
                               ),
                             ),
                             actions: <Widget>[
-                              FlatButton(
+                              TextButton(
                                   child: Text(
                                     'Yes',
                                     style: TextStyle(
@@ -142,7 +142,7 @@ class _SettingsState extends State<Settings1> {
                                     print("aq");
                                   }
                               ),
-                              FlatButton(
+                              TextButton(
                                   child: Text(
                                     'Cancel',
                                     style: TextStyle(

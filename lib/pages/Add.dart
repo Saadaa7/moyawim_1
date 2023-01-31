@@ -133,7 +133,7 @@ class Body extends StatelessWidget {
                 fontFamily: 'Raleway', fontSize: 16.0, color: Colors.white),
           ),
           actions: <Widget>[
-            FlatButton(
+            TextButton(
                 child: Text(
                   'Ok',
                   style: TextStyle(
@@ -175,7 +175,7 @@ class Body extends StatelessWidget {
                 fontFamily: 'Raleway', fontSize: 16.0, color: Colors.white),
           ),
           actions: <Widget>[
-            FlatButton(
+            TextButton(
                 child: Text(
                   'Ok',
                   style: TextStyle(
@@ -580,9 +580,9 @@ class _ImageState extends State<Image> {
       children: <Widget>[
         Container(
           width: 100,
-          child: FlatButton(
+          child: TextButton(
 
-            color: Colors.transparent,
+            // color: Colors.transparent,
             child: Icon(
               Icons.image,
               size: 50.0,
@@ -640,10 +640,11 @@ class _DateState extends State<Date> {
             mainAxisSize: MainAxisSize.max,
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              OutlineButton(
-                borderSide: BorderSide(color: Colors.grey),
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(5.0)),
+              OutlinedButton(
+
+                // borderSide: BorderSide(color: Colors.grey),
+                // shape: RoundedRectangleBorder(
+                //     borderRadius: BorderRadius.circular(5.0)),
                 onPressed: () => _selectDate(context),
                 child: Container(
                   alignment: Alignment.center,
@@ -683,7 +684,7 @@ class _DateState extends State<Date> {
                     ],
                   ),
                 ),
-                color: Colors.transparent,
+                // color: Colors.transparent,
               ),
               SizedBox(
                 height: 20.0,

@@ -149,7 +149,7 @@ class _myAdsState extends State<myAds> {
                                       ),
                                     ),
                                     actions: <Widget>[
-                                      FlatButton(
+                                      TextButton(
                                           child: Text(
                                             'Yes',
                                             style: TextStyle(
@@ -169,7 +169,7 @@ class _myAdsState extends State<myAds> {
                                             Navigator.pop(context);
                                           }
                                       ),
-                                      FlatButton(
+                                      TextButton(
                                           child: Text(
                                             'Cancel',
                                             style: TextStyle(

@@ -21,7 +21,7 @@ class _RegisterState extends State<Register> {
       text: TextSpan(
           text: 'Register',
           style: GoogleFonts.raleway(
-            textStyle: Theme.of(context).textTheme.display1,
+            textStyle: Theme.of(context).textTheme.titleLarge,
             fontSize: 30,
             fontWeight: FontWeight.w600,
             color: Colors.white70,
@@ -182,7 +182,7 @@ class _RegisterState extends State<Register> {
 
                                 SizedBox(height: 40.0),
                                 TextFormField(
-                                    inputFormatters: [BlacklistingTextInputFormatter(new RegExp('[ ]'))],
+                                    // inputFormatters: [BlacklistingTextInputFormatter(new RegExp('[ ]'))],
                                     style: TextStyle(
                                       color: Colors.white,
                                         fontFamily: 'Raleway'

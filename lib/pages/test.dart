@@ -77,7 +77,7 @@ class _testState extends State<test> {
         body: Column(
           children: <Widget>[
             Center(child: Text('Error: $_error')),
-            RaisedButton(
+            ElevatedButton(
               child: Text("Pick images"),
               onPressed: loadAssets,
             ),
