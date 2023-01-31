@@ -30,11 +30,11 @@ class _ratingState extends State<rating> {
       starCount: 5,
       allowHalfRating: false,
       spacing: 2.0,
-      onRatingChanged: (value) {
-        setState(() {
-          rating = value;
-        });
-      },
+      // onRatingChanged: (value) {
+      //   setState(() {
+      //     rating = value;
+      //   });
+      // },
     );
   }
 }

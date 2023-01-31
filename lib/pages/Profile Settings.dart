@@ -46,7 +46,7 @@ class _ProfileSettingsState extends State<ProfileSettings> {
                 fontFamily: 'Raleway', fontSize: 16.0, color: Colors.white),
           ),
           actions: <Widget>[
-            FlatButton(
+            TextButton(
                 child: Text(
                   'Ok',
                   style: TextStyle(

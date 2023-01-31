@@ -155,7 +155,7 @@ class _inProgDetailState extends State<inProgDetail> {
             ),
           ),
           actions: <Widget>[
-            FlatButton(
+            TextButton(
                 child: Text(
                     'Yes',
                   style: TextStyle(
@@ -172,7 +172,7 @@ class _inProgDetailState extends State<inProgDetail> {
                   _ackAlert3(context);
                 }
             ),
-            FlatButton(
+            TextButton(
                 child: Text(
                     'Cancel',
                   style: TextStyle(
@@ -212,7 +212,7 @@ class _inProgDetailState extends State<inProgDetail> {
             ),
           ),
           actions: <Widget>[
-            FlatButton(
+            TextButton(
                 child: Text(
                     'Yes',
                   style: TextStyle(
@@ -229,7 +229,7 @@ class _inProgDetailState extends State<inProgDetail> {
                   Navigator.pop(context);
                 }
             ),
-            FlatButton(
+            TextButton(
                 child: Text(
                     'Cancel',
                   style: TextStyle(
@@ -260,7 +260,7 @@ class _inProgDetailState extends State<inProgDetail> {
           title: dialogText(getAdWorkerUid()),
           content: pp,
           actions: <Widget>[
-            FlatButton(
+            TextButton(
                 child: Text(
                   'Submit',
                   style: TextStyle(
@@ -278,7 +278,7 @@ class _inProgDetailState extends State<inProgDetail> {
                   Navigator.pop(context);
                 }
             ),
-            FlatButton(
+            TextButton(
                 child: Text(
                   'Cancel',
                   style: TextStyle(

@@ -168,7 +168,7 @@ class _LoginState extends State<Login> {
                           children: <Widget>[
                             SizedBox(height: 95.0),
                             TextFormField(
-                                inputFormatters: [BlacklistingTextInputFormatter(new RegExp('[ ]'))],
+                                // inputFormatters: [BlacklistingTextInputFormatter(new RegExp('[ ]'))],
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontFamily: 'Raleway'
